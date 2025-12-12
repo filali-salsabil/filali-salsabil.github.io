@@ -1,15 +1,43 @@
-.home-image {
-    background-color: azure;
-    height: 70vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+    margin: 0;
+    padding: 0;
 }
+
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
     height: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.home {
+    height: 70vh;
+    width: 100vw;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.home-img {
+    width: 100vw;
+    height: 70vh;
+}
+
+img {
+    height: inherit;
+    width: inherit;
 }
