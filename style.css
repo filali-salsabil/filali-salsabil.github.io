@@ -1,0 +1,15 @@
+.home-image {
+    background-color: azure;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 60px;
+}
